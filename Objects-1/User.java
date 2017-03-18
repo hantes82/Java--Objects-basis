@@ -8,6 +8,7 @@ public class User {
 
 
 	public User(String login) {
+
 		this.login = login;
 	}
 	public User() {
@@ -39,6 +40,7 @@ public class User {
 	}
 
 	public String display () {
+
 		return "Czesc, nazywam sie "+name+" " +surname+"Mam "+age+" lat.";
 		}
 	public String toString() {
@@ -47,11 +49,11 @@ public class User {
 	}
 	public void isAdult() {
 		if (age>=18) {
-		System.out.println("U¿ytkownik jest pelnoletni");
+		System.out.println("Uï¿½ytkownik jest pelnoletni");
 
 		}
 		else {
-		System.out.println("U¿ytkownik nie jest pelnoletni");
+		System.out.println("Uï¿½ytkownik nie jest pelnoletni");
 		}
 		}
 	}
